@@ -22,18 +22,16 @@ int main(void)
 
 			while (c <= 9)
 			{
-				if (a != b && a != c && b != c && a < b && a < b && b < c)
+				if (a != b &&  b != c && a < b && b < c)
 				{
-					int d = 0;
-
-					d = a + b + c;
 					putchar(a + 48);
 					putchar(b + 48);
 					putchar(c + 48);
-					if (d != 24)
+
+					if (a + b + c != 24)
 					{
-						 putchar(',');
-						 putchar(' ');
+						putchar(',');
+						putchar(' ');
 					}
 				}
 				c++;
