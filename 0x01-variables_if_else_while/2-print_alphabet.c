@@ -14,7 +14,7 @@ int main(void)
 
 	for (int i = 0 ; i <= 28 ; i++)
 	{
-		putchat("%c", alfa[i]);
+		putchar("%c", alfa[i]);
 
 	};
 
