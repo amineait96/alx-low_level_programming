@@ -13,7 +13,11 @@ int main(void)
 	char ch = 'a';
 
 	while (ch <= 'z')
-		putchar("%c", ch);
-
+	{
+	
+	putchar("%c", ch);
+	
+	ch++;
+	}
 	return (0);
 }
