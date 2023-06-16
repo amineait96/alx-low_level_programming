@@ -22,8 +22,11 @@ int main(void)
 			{
 				putchar(i + 48);
 				putchar(y + 48);
+			if (i + y != 17)
+			{
 				putchar(',');
 				putchar(' ');
+			}
 			}
 			y++;
 		}
