@@ -22,7 +22,7 @@ int main(void)
 
 			while (c <= 9)
 			{
-				if (a != b && a != c && b != c && a < b && a < c && c < b)
+				if (a != b && a != c && b != c && a < b && a < b && b < c)
 				{
 					int d = 0;
 
