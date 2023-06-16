@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -10,13 +10,10 @@
 
 int main(void)
 {
-	char alfa[] = 'abcdefghijklmnopqrstuvwxyz';
+	char ch = 'a';
 
-	for (int i = 0 ; i <= 28 ; i++)
-	{
-		putchar("%c", alfa[i]);
-
-	};
+	while (ch <= 'z')
+		putchar("%c", ch);
 
 	return (0);
 }
