@@ -3,6 +3,9 @@
 /**
  *_islower - fonction that check the ascii code of the character c
  * and see if is lowercase
+ *
+ *@c : check input of fonction
+ *
  * Return: Always 1 if the character c is lower.
  * retturn 0 otherwise
  */
