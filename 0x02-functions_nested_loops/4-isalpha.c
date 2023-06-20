@@ -12,8 +12,10 @@
 
 int _isalpha(int c)
 {
-	if (c >= 65 && c <= 90 && c >= 97 && c <= 122)
+	if (c >= 65 && c <= 90)
 		return (1);
+	if (c >= 98 && c <= 122)
+sh: 1: q: not found
 	return (0);
 
 }
