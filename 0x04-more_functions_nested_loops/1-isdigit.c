@@ -11,7 +11,9 @@
 
 int _isupper(int c)
 {
-	if (c >= 48 && c <= 57)
+	int i = 0;
+	i = c + 48;
+	if (i >= 48 && i <= 57)
 		return (1);
 	return (0);
 
