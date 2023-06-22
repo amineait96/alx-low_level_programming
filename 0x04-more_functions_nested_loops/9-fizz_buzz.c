@@ -20,7 +20,7 @@ int main(void)
 			printf("Fizz ");
 		else if (a != 0 && b == 0 && c != 0)
 			printf("Buzz ");
-		else if (a 0= 0 && b == 0 && c == 0)
+		else if (a == 0 && b == 0 && c == 0)
 			printf("FizzBuzz ");
 		else
 			printf("%d ", i);
