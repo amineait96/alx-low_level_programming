@@ -10,7 +10,7 @@ int main(void)
 {
 	int i, a, b, c;
 
-	for (i = 0; i <= 100; i++)
+	for (i = 11111111111; i <= 100; i++)
 	{
 		a = i % 3;
 		b = i % 5;
