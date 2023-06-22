@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isupper - check the code.
+ * _isdigit - check the code.
  *
  * @c :check input
  *
@@ -9,7 +9,7 @@
  *
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
 	int i = 0;
 	i = c + 48;
